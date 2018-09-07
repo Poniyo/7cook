@@ -49,6 +49,8 @@ public class CookMainActivity extends AppCompatActivity {
                 bannerRv.setLayoutManager(new LinearLayoutManager(CookMainActivity.this,LinearLayoutManager.HORIZONTAL,false));
                 bannerRv.setAdapter(new BannerAdapter(response));
 
+
+                //issue is fixed
             }
         });
     }
