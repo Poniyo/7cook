@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
 
 import com.android.volley.Response;
 import com.example.rayola.myapplication.R;
@@ -21,6 +22,7 @@ public class CookMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cook_main);
 
         apiService=new ApiService(this);
+        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
 
 
         setupViews();
@@ -43,8 +45,7 @@ public class CookMainActivity extends AppCompatActivity {
             @Override
             public void onResponse(List<Banner> response) {
                 RecyclerView bannerRv=findViewById(R.id.rv_main_slider);
-                bannerRv.setNestedScrollingEnabled(false);
-                bannerRv.setHasFixedSize(true);
+                bannerRv.setNestedScrollingEnabled(true);
                 bannerRv.setLayoutManager(new LinearLayoutManager(CookMainActivity.this,LinearLayoutManager.HORIZONTAL,false));
                 bannerRv.setAdapter(new BannerAdapter(response));
 
