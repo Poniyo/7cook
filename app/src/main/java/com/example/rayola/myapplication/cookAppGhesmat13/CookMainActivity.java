@@ -43,6 +43,7 @@ public class CookMainActivity extends AppCompatActivity {
             @Override
             public void onResponse(List<Banner> response) {
                 RecyclerView bannerRv=findViewById(R.id.rv_main_slider);
+                bannerRv.setNestedScrollingEnabled(false);
                 bannerRv.setLayoutManager(new LinearLayoutManager(CookMainActivity.this,LinearLayoutManager.HORIZONTAL,false));
                 bannerRv.setAdapter(new BannerAdapter(response));
 
