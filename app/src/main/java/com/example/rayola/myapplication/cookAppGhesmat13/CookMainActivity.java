@@ -44,6 +44,7 @@ public class CookMainActivity extends AppCompatActivity {
             public void onResponse(List<Banner> response) {
                 RecyclerView bannerRv=findViewById(R.id.rv_main_slider);
                 bannerRv.setNestedScrollingEnabled(false);
+                bannerRv.setHasFixedSize(true);
                 bannerRv.setLayoutManager(new LinearLayoutManager(CookMainActivity.this,LinearLayoutManager.HORIZONTAL,false));
                 bannerRv.setAdapter(new BannerAdapter(response));
 
