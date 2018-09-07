@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#03a9fa</color>
+    <color name="white">#FFFF</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="all_primaryButtonTextColor">@color/white</color>
+    <color name="all_secondaryButtonTextColor">@color/gray400</color>
+    <color name="unselectedTabTextColor">#aaffffff</color>
+    <color name="cook_MainActivity_colorPrimary">#FF5722</color>
+    <color name="cook_MainActivity_colorPrimaryDark">#F4511E</color>
+    <color name="cook_MainActivity_colorAccent">#607D8B</color>
+
+</resources>

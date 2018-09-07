@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/standard_margin"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/title_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_font_szie"
+        tools:text="عنوان" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/normal_font_size"
+        android:maxLines="3"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:ellipsize="end"
+        tools:text="این یک مطلب تست است ، این یک مطلب تست است ، این یک مطلب تست استاین یک مطلب تست است ، این یک مطلب تست است ، این یک مطلب تست استاین یک مطلب تست است ، این یک مطلب تست است ، این یک مطلب تست استاین یک مطلب تست است" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/small_font_szie"
+        android:layout_marginLeft="@dimen/standard_margin"
+        tools:text="3 ساعت پیش" />
+
+</LinearLayout>

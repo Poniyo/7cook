@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Simple App</string>
+    <string name="profile_editProfile_Button">Edit Profile</string>
+    <string name="profile_Show_Website_Button">Show Website</string>
+    <string name="profile_done">Done</string>
+    <string name="profile_isCheckedMessaged">%1$s is Checked</string>
+    <string name="profile_isCheckedMessaged2" translatable="false">%1$s is NotChecked</string>
+    <string name="profile_skills">Skills</string>
+    <string name="ProvinceCity">ProvinceCity</string>
+    <string name="profile_saveinformation_button">Save Information</string>
+    <string name="profile_Gilan_radio">Gilan,Rasht</string>
+    <string name="profile_Tehran_radio">Tehran,Tehran</string>
+    <string name="profile_Alborz_radio">Alborz,karaj</string>
+    <string name="profile_AndroidDevelopment_checkBox">Android Development</string>
+    <string name="profile_CssHtml_checkBox" translatable="false">Css, Html</string>
+    <string name="profile_DeepLearning_checkBox">Deep Learning</string>
+    <string name="profile_ToastSaveInforMation_Button">Button is Clicked...</string>
+    <string name="profile_HintFirstName_EditText">First Name</string>
+    <string name="profile_HintLastName_EditText">Last Name</string>
+</resources>

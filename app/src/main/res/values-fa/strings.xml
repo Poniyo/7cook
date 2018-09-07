@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">نمونه اپلیکیشن 1</string>
+    <string name="profile_editProfile_Button">ویرایش پروفایل</string>
+    <string name="profile_Show_Website_Button">مشاهده وبسایت</string>
+    <string name="profile_isCheckedMessaged">%1$s is Checked</string>
+    <string name="profile_skills">مهارت ها</string>
+    <string name="profile_done">تایید</string>
+    <string name="ProvinceCity">استان/ مرکز</string>
+    <string name="profile_saveinformation_button">ثبت اطلاعات</string>
+    <string name="profile_Gilan_radio">گیلان,رشت</string>
+    <string name="profile_Tehran_radio">تهران,تهران</string>
+    <string name="profile_Alborz_radio">البرز,کرج</string>
+    <string name="profile_AndroidDevelopment_checkBox">برنامه نویسی اندروید</string>
+    <string name="profile_DeepLearning_checkBox">یادگیری عمیق</string>
+    <string name="profile_ToastSaveInforMation_Button">دکمه ارسال اطلاعات کلیک شد</string>
+    <string name="profile_HintFirstName_EditText">نام</string>
+    <string name="profile_HintLastName_EditText">نام خانوادگی</string>
+</resources>
